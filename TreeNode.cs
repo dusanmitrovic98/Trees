@@ -11,6 +11,10 @@ public class TreeNode<T>
         get { return this._data; }
         set { this._data = value; }
     }
-    public TreeNode<T> Parent { get; set; }
+    public TreeNode<T> Parent
+    {
+        get { return this._parent; }
+        set { this._parent = value; }
+    }
     public List<TreeNode<T>> Children { get; set; }
 }
