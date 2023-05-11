@@ -39,6 +39,9 @@ public class TreeNode<T>
 
     public void RemoveChild(T childData)
     {
+        foreach (TreeNode<T> childNode in this.Children)
+        {
 
+        }
     }
 }
