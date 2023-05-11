@@ -1,6 +1,6 @@
 namespace DataStructures.Collections.Trees;
 
-public class TreeNode
+public class TreeNode<T>
 {
 
 }
