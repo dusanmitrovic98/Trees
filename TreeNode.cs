@@ -48,4 +48,8 @@ public class TreeNode<T>
             }
         }
     }
+
+    public bool IsLeaf()
+    {
+    }
 }
