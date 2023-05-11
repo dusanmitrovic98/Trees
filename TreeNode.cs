@@ -11,6 +11,7 @@ public class TreeNode<T>
         get { return this._data; }
         set { this._data = value; }
     }
+
     public TreeNode<T> Parent
     {
         get { return this._parent; }
