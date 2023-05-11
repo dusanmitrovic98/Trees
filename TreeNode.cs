@@ -30,4 +30,7 @@ public class TreeNode<T>
         this.Children = new List<TreeNode<T>>();
     }
 
+    public void AddChild(T childData)
+    {
+    }
 }
