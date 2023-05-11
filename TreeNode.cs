@@ -43,7 +43,8 @@ public class TreeNode<T>
         {
             if (childNode.Data.Equals(childData))
             {
-
+                this.Children.Remove(childNode);
+                return;
             }
         }
     }
