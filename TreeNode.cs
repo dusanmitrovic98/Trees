@@ -32,5 +32,8 @@ public class TreeNode<T>
 
     public void AddChild(T childData)
     {
+        TreeNode<T> childNode = new TreeNode<T>(childData);
+        childNode.Parent = this;
+        this.Children.Add(childNode);
     }
 }
