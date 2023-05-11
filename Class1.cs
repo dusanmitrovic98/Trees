@@ -1,4 +1,4 @@
-﻿namespace Trees;
+﻿namespace DataStructures.Collections.Trees;
 public class Class1
 {
 
