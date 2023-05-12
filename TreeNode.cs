@@ -29,6 +29,4 @@ public class TreeNode<T>
         this.Data = data;
         this.Children = new List<TreeNode<T>>();
     }
-
-
 }
