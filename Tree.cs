@@ -12,5 +12,9 @@ public class Tree<T>
     public void Traverse(TreeNode<T> node, Action<T> action)
     {
         action(node.Data);
+        foreach (TreeNode<T> child in node.Children)
+        {
+
+        }
     }
 }
