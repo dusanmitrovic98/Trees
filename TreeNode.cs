@@ -24,5 +24,10 @@ public class TreeNode<T>
         set { this._children = value; }
     }
 
+    public TreeNode(T data)
+    {
+
+    }
+
 
 }
