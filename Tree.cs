@@ -8,4 +8,7 @@ public class Tree<T>
     {
         this.Root = new TreeNode<T>(data);
     }
+    public void Traverse(TreeNode<T> node, Action<T> action)
+    {
+    }
 }
