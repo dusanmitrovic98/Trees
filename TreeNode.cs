@@ -50,6 +50,6 @@ public class TreeNode<T>
     }
     public bool IsLeaf()
     {
-        return false;
+        return this.Children.Count == 0;
     }
 }
