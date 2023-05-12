@@ -50,5 +50,6 @@ public class TreeNode<T>
     }
     public bool IsLeaf()
     {
+        return false;
     }
 }
