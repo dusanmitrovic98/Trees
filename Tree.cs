@@ -11,5 +11,6 @@ public class Tree<T>
 
     public void Traverse(TreeNode<T> node, Action<T> action)
     {
+
     }
 }
