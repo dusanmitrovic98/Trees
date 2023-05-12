@@ -8,5 +8,4 @@ public class Tree<T>
     {
         this.Root = new TreeNode<T>(data);
     }
-
 }
