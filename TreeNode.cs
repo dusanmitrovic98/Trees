@@ -41,7 +41,10 @@ public class TreeNode<T>
     {
         foreach (TreeNode<T> childNode in this.Children)
         {
+            if (childNode.Data.Equals(childData))
+            {
 
+            }
         }
     }
 }
