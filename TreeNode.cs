@@ -26,7 +26,8 @@ public class TreeNode<T>
 
     public TreeNode(T data)
     {
-
+        this.Data = data;
+        this.Children = new List<TreeNode<T>>();
     }
 
 
