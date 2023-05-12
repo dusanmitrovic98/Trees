@@ -36,4 +36,9 @@ public class TreeNode<T>
         childNode.Parent = this;
         this.Children.Add(childNode);
     }
+
+    public void RemoveChild(T childData)
+    {
+
+    }
 }
