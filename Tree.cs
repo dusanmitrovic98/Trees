@@ -6,7 +6,7 @@ public class Tree<T>
 
     public Tree(T data)
     {
-
+        this.Root = new TreeNode<T>(data);
     }
 
 }
