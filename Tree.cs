@@ -14,7 +14,7 @@ public class Tree<T>
         action(node.Data);
         foreach (TreeNode<T> child in node.Children)
         {
-
+            Traverse(child, action);
         }
     }
 }
