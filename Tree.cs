@@ -2,6 +2,7 @@
 
 public class Tree<T>
 {
+    private TreeNode<T> _root;
     public TreeNode<T> Root { get; set; }
 
     public Tree(T data)
